@@ -1,0 +1,4069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="TouristApp.xsl" type="text/xsl"?>
+
+
+
+
+
+<!DOCTYPE xsl:stylesheet  
+
+	<!ENTITY nbsp   "&#160;">
+
+	<!ENTITY copy   "&#169;">
+
+	<!ENTITY reg    "&#174;">
+
+	<!ENTITY trade  "&#8482;">
+
+	<!ENTITY mdash  "&#8212;">
+
+	<!ENTITY ldquo  "&#8220;">
+
+	<!ENTITY rdquo  "&#8221;"> 
+
+	<!ENTITY pound  "&#163;">
+
+	<!ENTITY yen    "&#165;">
+
+	<!ENTITY euro   "&#8364;">
+
+
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:output method="html" encoding="utf-8"/>
+
+<xsl:template match="/">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+
+  $("form").submit(function(){
+
+    alert("THE SRO AUDIENCE TICKET FORM FOR YOUR SELECTED SHOW HAS BEEN SUBMITED. PLEASE CHECK YOUR EMAIL FOR CONFIRMATION. THANK YOU FROM WWW.SROAUDIENCES.COM	");
+
+  });
+
+});
+
+</script>
+
+
+
+  <title>SRO Audiences Web</title>
+
+  
+
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="ourtheme.css" />
+
+  <link rel="stylesheet" href="jquery.mobile.icons.min.css" />
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" /> 
+
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+
+  <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js">
+
+  </script> 
+
+</head>
+
+				
+
+			
+
+<body>   
+
+    
+
+<div data-role="page" id="HOMEPAGE">
+
+
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+</div>
+
+
+
+<div data-role="content">
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+
+
+
+<a  href="#CURRENTSHOWS" data-role="button" data-theme="#" data-icon="arrow-r" data-transition="flow">
+
+Current Shows
+
+</a>
+
+<br>
+
+<a data-role="button" data-theme="#"data-icon="arrow-r" href="#" data-transition="flow">
+
+Scrapbook
+
+</a>
+
+<br>
+
+<a data-role="button" data-theme="#"data-icon="arrow-r" href="#" data-transition="flow">
+
+About Us?
+
+</a>
+
+<br>
+
+<a data-role="button" data-theme="#"data-icon="arrow-r" href="#" data-transition="flow">
+
+Contact Us
+
+</a>
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+
+<h3>www.sroaudiences.com</h3>
+
+<div data-role="navbar" data-iconpos="top">
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Current Shows Page -->
+
+
+
+<div data-role="page" id="CURRENTSHOWS">
+
+
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO TO HOMEPAGE
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<ul data-role="listview" data-inset="true" data-divider-theme="a">
+
+
+
+<div align="center">
+
+
+
+<h1> CURRENT SHOWS </h1>
+
+
+
+</div>
+
+
+
+<li data-theme="a">
+
+<a href="#LOOSEWOMENPAGE" data-transition="flow">
+
+LOOSE WOMEN
+
+</a>
+
+</li>
+
+<li data-theme="a">
+
+<a href="#THEGRAHAMNORTONSHOWPAGE" data-transition="flow">
+
+THE GRAHAM NORTON SHOW
+
+</a>
+
+</li>
+
+<li data-theme="a">
+
+<a href="#THEJONATHANROSSSHOWPAGE" data-transition="flow">
+
+THE JONATHAN ROSS SHOW
+
+</a>
+
+</li>
+
+<li data-theme="a">
+
+<a href="#ALANCARRCHATTYMANPAGE" data-transition="flow">
+
+ALAN CARR: CHATTY MAN
+
+</a>
+
+</li>
+
+<li data-theme="a">
+
+<a href="#COUNTDOWNPAGE" data-transition="flow">
+
+COUNTDOWN
+
+</a>
+
+</li>
+
+</ul>
+
+
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+
+<h3>
+
+www.sroaudiences.com
+
+</h3>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+<!--LOOSE WOMEN PAGE-->
+
+ 
+
+<div data-role="page" id="LOOSEWOMENPAGE">
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<div data-role="content">
+
+<xsl:for-each select="Tourist_Attractions/Attractionsone">
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-content-theme="a" data-theme="a" >
+
+<h3>
+
+NAME OF THE SHOW
+
+</h3>
+
+<img src="Loosewomen.png"  width="300" height="150">
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+ADDRESS OF THE SHOW
+
+</h3>
+
+The ITV London Studios, SE1 9LT 
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LOCAL TUBE STATIONS
+
+</h3>
+
+Waterloo
+
+</div>
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+PRICE OF THE SHOW
+
+</h3>
+
+Free
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+SHORT DESCRIPTION
+
+</h3>
+
+Loose Women is a British lunchtime television programme, first broadcast in 1999 on ITV
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LONG DESCRIPTION
+
+</h3>
+
+The show consists of a panel of four women who interview celebrities and discuss topical issues, ranging from daily politics and current affairs, to celebrity gossip. As of 2012, the programme averages 1.2 million viewers daily which has remained the same since the show began. The 20th series began on 9 September 2013. 
+
+<div align="left">
+
+<img src="loosewomenpresenters.jpg"  width="302" height="150">
+
+</div>
+
+</div>
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+OPENING HOURS/DOOR'S OPEN
+
+</h3>
+
+11:45 A.M.
+
+</div>
+
+<a  href="#BOOKTICKETSPAGE" data-role="button" data-theme="#" data-icon="arrow-r" data-transition="turn">
+
+<h4>
+
+CLICK HERE TO BOOK TICKETS
+
+</h4>
+
+</a>
+
+
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+
+<h3>
+
+www.sroaudiences.com
+
+</h3>
+
+</div>
+
+</xsl:for-each>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--THE GRAHAM NORTON SHOW PAGE-->
+
+ 
+
+<div data-role="page" id="THEGRAHAMNORTONSHOWPAGE">
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<div data-role="content">
+
+<xsl:for-each select="Tourist_Attractions/Attractionsone">
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-content-theme="a" data-theme="a" >
+
+<h3>
+
+NAME OF THE SHOW
+
+</h3>
+
+<img src="thegrahamnortonshow.jpg"  width="302" height="150">
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+ADDRESS OF THE SHOW
+
+</h3>
+
+The ITV London Studios, SE1 9LT 
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LOCAL TUBE STATIONS
+
+</h3>
+
+Waterloo
+
+</div>
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+PRICE OF THE SHOW
+
+</h3>
+
+Free
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+SHORT DESCRIPTION
+
+</h3>
+
+The Graham Norton Show is a British comedy chat show broadcast on BBC One in the United Kingdom. It was shown on BBC Two from February 2007 to May 2009 
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LONG DESCRIPTION
+
+</h3>
+
+Presented by Irish comedian Graham Norton, the show's format is very similar to his previous Channel 4 programmes, V Graham Norton and So Graham Norton, both of which were also produced by So Television. The show mirrors "So" and "V" with strong adult humour along with Graham's monologue at the beginning of the show and often a musical guest to play out over the credits. Although the rude objects in "Graham's drawer" did not survive, the phone calls and hidden camera surprises have. These surprises are sometimes based around the guests, such as Sarah Beeny's dating website, a TARDIS on the South Bank when David Tennant appeared and a wine-tasting group drinking Gérard Depardieu's wine whilst he was on the show. Some of the surprises, such as the wine-tasting, have been arranged through ideas submitted by viewers, stating where they will be when the show is recorded. 
+
+<div align="left">
+
+<img src="nortonshow.jpg"  width="302" height="150">
+
+</div>
+
+</div>
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+OPENING HOURS/DOOR'S OPEN
+
+</h3>
+
+6:15 P.M.
+
+</div>
+
+<a  href="#BOOKTICKETSPAGE1" data-role="button" data-theme="#" data-icon="arrow-r" data-transition="turn">
+
+<h4>
+
+CLICK HERE TO BOOK TICKETS
+
+</h4>
+
+</a>
+
+
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+
+<h3>
+
+www.sroaudiences.com
+
+</h3>
+
+</div>
+
+</xsl:for-each>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--THE JONATHON ROSS SHOW PAGE-->
+
+ 
+
+<div data-role="page" id="THEJONATHANROSSSHOWPAGE">
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<div data-role="content">
+
+<xsl:for-each select="Tourist_Attractions/Attractionsone">
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-content-theme="a" data-theme="a" >
+
+<h3>
+
+NAME OF THE SHOW
+
+</h3>
+
+<img src="jonathanrossshow.jpg"  width="302" height="150">
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+ADDRESS OF THE SHOW
+
+</h3>
+
+The ITV London Studios, SE1 9LT 
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LOCAL TUBE STATIONS
+
+</h3>
+
+Waterloo
+
+</div>
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+PRICE OF THE SHOW
+
+</h3>
+
+Free
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+SHORT DESCRIPTION
+
+</h3>
+
+The Jonathan Ross Show is a British chat show presented by Jonathan Ross. It was first broadcast on ITV on 3 September 2011 and currently airs on Saturday evenings following the conclusion of Ross' BBC One chat show, Friday Night with Jonathan Ross, in July 2010. 
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LONG DESCRIPTION
+
+</h3>
+
+The show is filmed at The London Studios, with one exception of one episode in 2013, where the episode was filmed at BBC Television Centre. In November 2011, it was announced that Ross had signed a new two-year contract to host another two series of 10 episodes each and a Christmas special. A year later the show was later renewed for a fourth series to air in 2013. In March 2013, Ross bemoaned his declining ratings due to a poor selection of guests. Some top stars prefer the atmosphere of The Graham Norton Show. He also confirmed that Series 4 had been extended and that he had signed to present one more series of 30 episodes. In July 2013, despite previous announcements that the show would end in late 2013, ITV commissioned two more series to air in 2014.
+
+<div align="left">
+
+<img src="rossshow.jpg"  width="302" height="150">
+
+</div>
+
+</div>
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+OPENING HOURS/DOOR'S OPEN
+
+</h3>
+
+6:15 P.M.
+
+</div>
+
+<a  href="#BOOKTICKETSPAGE2" data-role="button" data-theme="#" data-icon="arrow-r" data-transition="turn">
+
+<h4>
+
+CLICK HERE TO BOOK TICKETS
+
+</h4>
+
+</a>
+
+
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+
+<h3>
+
+www.sroaudiences.com
+
+</h3>
+
+</div>
+
+</xsl:for-each>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--ALAN CAR CHATTY MAN PAGE-->
+
+ 
+
+<div data-role="page" id="ALANCARRCHATTYMANPAGE">
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<div data-role="content">
+
+<xsl:for-each select="Tourist_Attractions/Attractionsone">
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-content-theme="a" data-theme="a" >
+
+<h3>
+
+NAME OF THE SHOW
+
+</h3>
+
+<img src="chattymanlogo.jpg"  width="302" height="150">
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+ADDRESS OF THE SHOW
+
+</h3>
+
+The ITV London Studios, SE1 9LT 
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LOCAL TUBE STATIONS
+
+</h3>
+
+Waterloo
+
+</div>
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+PRICE OF THE SHOW
+
+</h3>
+
+Free
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+SHORT DESCRIPTION
+
+</h3>
+
+Alan Carr: Chatty Man is a BAFTA award-winning British comedy chat show presented by comedian Alan Carr. The show features interviews with celebrity guests, sketches, topical chat and music.
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LONG DESCRIPTION
+
+</h3>
+
+The show was first on as two pilots in late May 2009, it proved popular with the public and was commissioned for a series. The first episode drew in a total of 2.15 million viewers. To date, the show has broadcast 11 series and 109 episodes. The eleventh series consisted of 18 episodes, making it the longest series to date. A new series began airing on 30 August 2013. In 2013, Carr signed a two-year contract extension with Channel 4, the exclusive deal will see him staying at the channel until 2015 in a new deal worth £4 million. In continental Europe and Scandinavia, Alan Carr: Chattyman is shown on BBC Entertainment a week behind the UK. Old episodes are currently being aired on 4Music.
+
+<div align="left">
+
+<img src="chattyman.jpg"  width="302" height="150">
+
+</div>
+
+</div>
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+OPENING HOURS/DOOR'S OPEN
+
+</h3>
+
+5:45 P.M.
+
+</div>
+
+<a  href="#BOOKTICKETSPAGE3" data-role="button" data-theme="#" data-icon="arrow-r" data-transition="turn">
+
+<h4>
+
+CLICK HERE TO BOOK TICKETS
+
+</h4>
+
+</a>
+
+
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+
+<h3>
+
+www.sroaudiences.com
+
+</h3>
+
+</div>
+
+</xsl:for-each>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--COUNTDOWN PAGE-->
+
+ 
+
+<div data-role="page" id="COUNTDOWNPAGE">
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<div data-role="content">
+
+<xsl:for-each select="Tourist_Attractions/Attractionsone">
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-content-theme="a" data-theme="a" >
+
+<h3>
+
+NAME OF THE SHOW
+
+</h3>
+
+<img src="contdownlogo.png"  width="302" height="150">
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+ADDRESS OF THE SHOW
+
+</h3>
+
+The Greenhouse, MediaCityUK, Manchester, Salford, M50 2EQ 
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LOCAL TUBE STATIONS
+
+</h3>
+
+Salford Crescent Station
+
+</div>
+
+
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+PRICE OF THE SHOW
+
+</h3>
+
+Free
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+SHORT DESCRIPTION
+
+</h3>
+
+Countdown is a British game show involving word and number puzzles. It is produced by ITV Studios and broadcast on Channel 4. It is presented by Nick Hewer, assisted by Rachel Riley, with regular lexicographer Susie Dent. It was the first programme to be aired on Channel 4, and 69 series have been broadcast since its debut on 2 November 1982.
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+LONG DESCRIPTION
+
+</h3>
+
+With over 5,000 episodes, Countdown is one of the longest-running game shows in the world, along with the original French version, Des chiffres et des lettres, which has been running on French television continuously since 1965. Countdown was initially recorded at The Leeds Studios for 27 years, before moving to Granada Studios in 2009, and then over to MediaCityUK in Salford Quays in 2013. The programme was presented by Richard Whiteley for over 20 years, until his death in June 2005. It was then presented by Des Lynam until the end of 2006, Des O'Connor until the end of 2008, and Jeff Stelling until the end of 2011. The current presenter is Nick Hewer.
+
+<div align="left">
+
+<img src="countdowndes.jpg"  width="302" height="150">
+
+</div>
+
+</div>
+
+</div>
+
+<div data-role="collapsible" data-collapsed="false" data-theme="a">
+
+<h3>
+
+OPENING HOURS/DOOR'S OPEN
+
+</h3>
+
+1:45 P.M.
+
+</div>
+
+<a  href="#BOOKTICKETSPAGE4" data-role="button" data-theme="#" data-icon="arrow-r" data-transition="turn">
+
+<h4>
+
+CLICK HERE TO BOOK TICKETS
+
+</h4>
+
+</a>
+
+
+
+
+
+<div data-theme="a" data-role="footer" data-position="fixed">
+
+<h3>
+
+www.sroaudiences.com
+
+</h3>
+
+</div>
+
+</xsl:for-each>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!--BOOKING TICKETS PAGE FOR COUNTDOWN-->
+
+
+
+<div data-role="page" id="BOOKTICKETSPAGE4">
+
+
+
+
+
+
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#COUNTDOWNPAGE" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<ul data-role="listview" data-inset="true" data-divider-theme="a">
+
+
+
+<div align="center">
+
+
+
+<h1> Book Tickets For <img src="contdownlogo.png"  width="200" height="150"> </h1>
+
+<br>
+
+<div align="left">
+<p><b>To apply for tickets, please complete IN FULL and submit the details below. We will process your application as quickly as possible and email you confirmation of your booking if successful.</b></p>
+
+<br>
+ 
+<b>GOOD LUCK</b>
+
+</div>
+</div>
+<br>
+<br>
+
+
+
+<b> * ARE REQUIRED FIELDS </b>
+
+<br>
+
+<br>
+
+<br>
+
+
+
+
+
+<body>
+
+
+
+<form action="">
+
+
+
+<label for="select" class="select"><b> * TITLE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">SELECT FROM THE DROP DOWN LIST BELOW...</option>
+
+<option value="mr">Mr</option>
+
+<option value="mrs">Mrs</option>
+
+<option value="miss">Miss</option>
+
+<option value="ms">Ms</option>
+
+<option value="dr">Dr</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * FIRST NAME : </b></label>
+
+<input type="text" name="firstname" id="firstname" data-clear-btn="true" placeholder="WHAT IS YOUR FIRST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * LAST NAME : </b></label>
+
+<input type="text" name="lastname" id="lastname" data-clear-btn="true" placeholder="WHAT IS YOUR LAST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+      
+
+<fieldset data-role="controlgroup">
+
+<legend><b> * NUMBER OF TICKETS REQUIRED (MAX 6) : </b></legend>
+
+<label for="one">1</label>
+
+<input type="radio" name="notickets" id="one" value="one">
+
+<label for="two">2</label>
+
+<input type="radio" name="notickets" id="two" value="two">
+
+<label for="three">3</label>
+
+<input type="radio" name="notickets" id="three" value="three">
+
+<label for="four">4</label>
+
+<input type="radio" name="notickets" id="four" value="four">
+
+<label for="five">5</label>
+
+<input type="radio" name="notickets" id="five" value="five">
+
+<label for="six">6</label>
+
+<input type="radio" name="notickets" id="six" value="six">	
+
+</fieldset>
+
+
+
+<br>
+
+
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * PLEASE ENTER YOUR ADDRESS : </b></label>
+
+<input type="text" name="addressline1" id="addressline1" data-clear-btn="true" placeholder="ADDRESS LINE 1 E.G. 25 HARROW ROAD">
+
+<input type="text" name="addressline2" id="addressline2" data-clear-btn="true" placeholder="ADDRESS LINE 2 E.G. LONDON">
+
+<input type="text" name="addressline3" id="addressline3" data-clear-btn="true" placeholder="ADDRESS LINE 3 E.G. PLAISTOW">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * POSTCODE : </b></label>
+
+<input type="text" name="postcode" id="postcode" data-clear-btn="true" placeholder="POST CODE E.G. E12 7GF">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * CONTACT NUMBER : </b></label>
+
+<input type="text" name="contact" id="contact" data-clear-btn="true" placeholder="CONTACT INFORMATION E.G. 07912345678...">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * EMAIL ADDRESS : </b></label>
+
+<input type="email" name="email" id="email" placeholder="Your E-MAIL e.g. steve12@gmail.com">
+
+<label for="text"><b> * DATE OF BIRTH : </b></label>
+
+<input type="date" name="bday" id="bday">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * PLEASE INDICATE FOR WHICH TIMES YOU ARE AVAILABLE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="mor">Morning</option>
+
+<option value="aft">Afternoon</option>
+
+<option value="eve">Evening</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="comments"><b> * In order to ensure that all of our guests have a safe and enjoyable visit, if there is any person in your party who cannot walk unaided or has difficulty walking a reasonable distance then please give us details below. Also let us know if anyone in your party has any medical conditions that may require on-site treatment, e.g. Diabetes : </b></label>
+
+
+
+<textarea cols="70" rows="14" name="textarea" id="textarea"></textarea>
+
+</div>
+
+
+
+<br>
+
+
+
+<input type="reset" value="RESET FORM">
+
+<input type="submit" value="SUBMIT THE FORM">
+
+
+
+</form>
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--BOOKING TICKETS PAGE FOR ALAN CAR CHATTY MAN-->
+
+
+
+<div data-role="page" id="BOOKTICKETSPAGE3">
+
+
+
+
+
+
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#ALANCARRCHATTYMANPAGE" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<ul data-role="listview" data-inset="true" data-divider-theme="a">
+
+
+
+<div align="center">
+
+
+
+<h1> Book Tickets For <img src="chattyticketlogo.jpg"  width="200" height="150"> </h1>
+
+<br>
+
+<div align="left">
+<p><b>To apply for tickets, please complete IN FULL and submit the details below. We will process your application as quickly as possible and email you confirmation of your booking if successful.</b></p>
+
+<br>
+ 
+<b>GOOD LUCK</b>
+</div>
+</div>
+<br>
+<br>
+
+
+
+<b> * ARE REQUIRED FIELDS </b>
+
+<br>
+
+<br>
+
+<br>
+
+
+
+
+
+<body>
+
+
+
+<form action="">
+
+
+
+<label for="select" class="select"><b> * TITLE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">SELECT FROM THE DROP DOWN LIST BELOW...</option>
+
+<option value="mr">Mr</option>
+
+<option value="mrs">Mrs</option>
+
+<option value="miss">Miss</option>
+
+<option value="ms">Ms</option>
+
+<option value="dr">Dr</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * FIRST NAME : </b></label>
+
+<input type="text" name="firstname" id="firstname" data-clear-btn="true" placeholder="WHAT IS YOUR FIRST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * LAST NAME : </b></label>
+
+<input type="text" name="lastname" id="lastname" data-clear-btn="true" placeholder="WHAT IS YOUR LAST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+      
+
+<fieldset data-role="controlgroup">
+
+<legend><b> * NUMBER OF TICKETS REQUIRED (MAX 6) : </b></legend>
+
+<label for="one">1</label>
+
+<input type="radio" name="notickets" id="one" value="one">
+
+<label for="two">2</label>
+
+<input type="radio" name="notickets" id="two" value="two">
+
+<label for="three">3</label>
+
+<input type="radio" name="notickets" id="three" value="three">
+
+<label for="four">4</label>
+
+<input type="radio" name="notickets" id="four" value="four">
+
+<label for="five">5</label>
+
+<input type="radio" name="notickets" id="five" value="five">
+
+<label for="six">6</label>
+
+<input type="radio" name="notickets" id="six" value="six">	
+
+</fieldset>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * PREFERRED DATES : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="7may">Wednesday 7th May 2014</option>
+
+<option value="14may">Wednesday 14th May 2014</option>
+
+<option value="21may">Wednesday 21st May 2014</option>
+
+<option value="28may">Wednesday 28th may 2014</option>
+
+<option value="4june">Wednesday 4th June 2014</option>
+
+<option value="11june">Wednesday 11th June 2014</option>
+
+<option value="18june">Wednesday 18th June 2014</option>
+
+<option value="25june">Wednesday 25th June 2014</option>
+
+<option value="2july">Wednesday 2nd July 2014</option>
+
+</select>
+
+
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(2ND CHOICE...)</option>
+
+<option value="7may">Wednesday 7th May 2014</option>
+
+<option value="14may">Wednesday 14th May 2014</option>
+
+<option value="21may">Wednesday 21st May 2014</option>
+
+<option value="28may">Wednesday 28th may 2014</option>
+
+<option value="4june">Wednesday 4th June 2014</option>
+
+<option value="11june">Wednesday 11th June 2014</option>
+
+<option value="18june">Wednesday 18th June 2014</option>
+
+<option value="25june">Wednesday 25th June 2014</option>
+
+<option value="2july">Wednesday 2nd July 2014</option>
+
+</select>
+
+
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(3RD CHOICE...)</option>
+
+<option value="7may">Wednesday 7th May 2014</option>
+
+<option value="14may">Wednesday 14th May 2014</option>
+
+<option value="21may">Wednesday 21st May 2014</option>
+
+<option value="28may">Wednesday 28th may 2014</option>
+
+<option value="4june">Wednesday 4th June 2014</option>
+
+<option value="11june">Wednesday 11th June 2014</option>
+
+<option value="18june">Wednesday 18th June 2014</option>
+
+<option value="25june">Wednesday 25th June 2014</option>
+
+<option value="2july">Wednesday 2nd July 2014</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * PLEASE ENTER YOUR ADDRESS : </b></label>
+
+<input type="text" name="addressline1" id="addressline1" data-clear-btn="true" placeholder="ADDRESS LINE 1 E.G. 25 HARROW ROAD">
+
+<input type="text" name="addressline2" id="addressline2" data-clear-btn="true" placeholder="ADDRESS LINE 2 E.G. LONDON">
+
+<input type="text" name="addressline3" id="addressline3" data-clear-btn="true" placeholder="ADDRESS LINE 3 E.G. PLAISTOW">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * POSTCODE : </b></label>
+
+<input type="text" name="postcode" id="postcode" data-clear-btn="true" placeholder="POST CODE E.G. E12 7GF">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * CONTACT NUMBER : </b></label>
+
+<input type="text" name="contact" id="contact" data-clear-btn="true" placeholder="CONTACT INFORMATION E.G. 07912345678...">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * EMAIL ADDRESS : </b></label>
+
+<input type="email" name="email" id="email" placeholder="Your E-MAIL e.g. steve12@gmail.com">
+
+<label for="text"><b> * DATE OF BIRTH : </b></label>
+
+<input type="date" name="bday" id="bday">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * FAVOURITE SOAP OPERA : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="hollyoaks">Hollyokas</option>
+
+<option value="eastenders">Eastenders</option>
+
+<option value="casualty">Casualty</option>
+
+<option value="holby">Holby City</option>
+
+<option value="coronationstreet">Coronation Street</option>
+
+<option value="emmeradale">Emmerdale</option>
+
+<option value="rivercity">River City</option>
+
+<option value="towie">The Only Way Is Essex</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * NEWSPAPER OF CHOICE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="sun">The Sun</option>
+
+<option value="dailymirror">The Dialy Mirror </option>
+
+<option value="sundaymirror">Sunday Mirror</option>
+
+<option value="dailystar">Daily Star</option>
+
+<option value="dailymail">Daily Mail</option>
+
+<option value="dailyexpress">Daily Express</option>
+
+<option value="dailytelegraph">The Daily Telegraph</option>
+
+<option value="guardain">The Guardian</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * WHO IS YOUR FAVOURITE BRITISH COMEDIAN? : </b></label>
+
+<input type="text" name="favcomedian" id="favcomedian" data-clear-btn="true" placeholder="FAVOURITE COMEDIAN? E.G. MIRINDA HART...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * YOUR FAVOURITE CHAT SHOW : </b></label>
+
+<input type="text" name="favchatshow" id="favchatshow" data-clear-btn="true" placeholder="FAVOURITE CHAT SHOW? E.G. THE JONATHON ROSS SHOW...">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * WHERE DID YOU HEAR ABOUT SRO AUDIENCES : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="google">Google Search</option>
+
+<option value="fb">Facebook/Twitter </option>
+
+<option value="word">Word Of Mouth</option>
+
+<option value="poster">Poster</option>
+
+<option value="bustube">Bus/Tube Advert</option>
+
+<option value="tvshowcommercial">TV Show/Commercial</option>
+
+<option value="magazine">Magazine</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="comments"><b> * YOUR COMMENTS AND OTHER INFORMATION : </b></label>
+
+
+
+<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+</div>
+
+
+
+<br>
+
+
+
+<input type="reset" value="RESET FORM">
+
+<input type="submit" value="SUBMIT THE FORM">
+
+
+
+</form>
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+<!--BOOKING TICKETS PAGE for JONATHAN ROSS SHOW-->
+
+
+
+<div data-role="page" id="BOOKTICKETSPAGE2">
+
+
+
+
+
+
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#THEJONATHANROSSSHOWPAGE" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<ul data-role="listview" data-inset="true" data-divider-theme="a">
+
+
+
+<div align="center">
+
+
+
+<h1> Book Tickets For <img src="jonathanrossshow.jpg"  width="200" height="150"> </h1>
+
+<br>
+<div align="left">
+<p><b>To apply for tickets, please complete IN FULL and submit the details below. We will process your application as quickly as possible and email you confirmation of your booking if successful.</b></p>
+
+<br>
+ 
+<b>GOOD LUCK</b>
+</div>
+</div>
+<br>
+<br>
+
+
+
+<b> * ARE REQUIRED FIELDS </b>
+
+<br>
+
+<br>
+
+<br>
+
+
+
+
+
+<body>
+
+
+
+<form action="">
+
+
+
+<label for="select" class="select"><b> * TITLE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">SELECT FROM THE DROP DOWN LIST BELOW...</option>
+
+<option value="mr">Mr</option>
+
+<option value="mrs">Mrs</option>
+
+<option value="miss">Miss</option>
+
+<option value="ms">Ms</option>
+
+<option value="dr">Dr</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * FIRST NAME : </b></label>
+
+<input type="text" name="firstname" id="firstname" data-clear-btn="true" placeholder="WHAT IS YOUR FIRST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * LAST NAME : </b></label>
+
+<input type="text" name="lastname" id="lastname" data-clear-btn="true" placeholder="WHAT IS YOUR LAST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+      
+
+<fieldset data-role="controlgroup">
+
+<legend><b> * NUMBER OF TICKETS REQUIRED (MAX 6) : </b></legend>
+
+<label for="one">1</label>
+
+<input type="radio" name="notickets" id="one" value="one">
+
+<label for="two">2</label>
+
+<input type="radio" name="notickets" id="two" value="two">
+
+<label for="three">3</label>
+
+<input type="radio" name="notickets" id="three" value="three">
+
+<label for="four">4</label>
+
+<input type="radio" name="notickets" id="four" value="four">
+
+<label for="five">5</label>
+
+<input type="radio" name="notickets" id="five" value="five">
+
+<label for="six">6</label>
+
+<input type="radio" name="notickets" id="six" value="six">	
+
+</fieldset>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * PLEASE ENTER YOUR ADDRESS : </b></label>
+
+<input type="text" name="addressline1" id="addressline1" data-clear-btn="true" placeholder="ADDRESS LINE 1 E.G. 25 HARROW ROAD">
+
+<input type="text" name="addressline2" id="addressline2" data-clear-btn="true" placeholder="ADDRESS LINE 2 E.G. LONDON">
+
+<input type="text" name="addressline3" id="addressline3" data-clear-btn="true" placeholder="ADDRESS LINE 3 E.G. PLAISTOW">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * POSTCODE : </b></label>
+
+<input type="text" name="postcode" id="postcode" data-clear-btn="true" placeholder="POST CODE E.G. E12 7GF">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * CONTACT NUMBER : </b></label>
+
+<input type="text" name="contact" id="contact" data-clear-btn="true" placeholder="CONTACT INFORMATION E.G. 07912345678...">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * EMAIL ADDRESS : </b></label>
+
+<input type="email" name="email" id="email" placeholder="Your E-MAIL e.g. steve12@gmail.com">
+
+<label for="text"><b> * DATE OF BIRTH : </b></label>
+
+<input type="date" name="bday" id="bday">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * FAVOURITE SOAP OPERA : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="hollyoaks">Hollyokas</option>
+
+<option value="eastenders">Eastenders</option>
+
+<option value="casualty">Casualty</option>
+
+<option value="holby">Holby City</option>
+
+<option value="coronationstreet">Coronation Street</option>
+
+<option value="emmeradale">Emmerdale</option>
+
+<option value="rivercity">River City</option>
+
+<option value="towie">The Only Way Is Essex</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * NEWSPAPER OF CHOICE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="sun">The Sun</option>
+
+<option value="dailymirror">The Dialy Mirror </option>
+
+<option value="sundaymirror">Sunday Mirror</option>
+
+<option value="dailystar">Daily Star</option>
+
+<option value="dailymail">Daily Mail</option>
+
+<option value="dailyexpress">Daily Express</option>
+
+<option value="dailytelegraph">The Daily Telegraph</option>
+
+<option value="guardain">The Guardian</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * WHO IS YOUR FAVOURITE BRITISH COMEDIAN? : </b></label>
+
+<input type="text" name="favcomedian" id="favcomedian" data-clear-btn="true" placeholder="FAVOURITE COMEDIAN? E.G. MIRINDA HART...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * YOUR FAVOURITE CHAT SHOW : </b></label>
+
+<input type="text" name="favchatshow" id="favchatshow" data-clear-btn="true" placeholder="FAVOURITE CHAT SHOW? E.G. THE JONATHON ROSS SHOW...">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * WHERE DID YOU HEAR ABOUT SRO AUDIENCES : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="google">Google Search</option>
+
+<option value="fb">Facebook/Twitter </option>
+
+<option value="word">Word Of Mouth</option>
+
+<option value="poster">Poster</option>
+
+<option value="bustube">Bus/Tube Advert</option>
+
+<option value="tvshowcommercial">TV Show/Commercial</option>
+
+<option value="magazine">Magazine</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="comments"><b> * YOUR COMMENTS AND OTHER INFORMATION : </b></label>
+
+
+
+<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+</div>
+
+
+
+<br>
+
+
+
+<input type="reset" value="RESET FORM">
+
+<input type="submit" value="SUBMIT THE FORM">
+
+
+
+</form>
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--BOOKING TICKETS PAGE for graham norton show-->
+
+
+
+<div data-role="page" id="BOOKTICKETSPAGE1">
+
+
+
+
+
+
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#THEGRAHAMNORTONSHOWPAGE" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<ul data-role="listview" data-inset="true" data-divider-theme="a">
+
+
+
+<div align="center">
+
+
+
+<h1> Book Tickets For <img src="thegrahamnortonshow.jpg"  width="200" height="150"> </h1>
+
+<br>
+
+<div align="left">
+<p><b>To apply for tickets, please complete IN FULL and submit the details below. We will process your application as quickly as possible and email you confirmation of your booking if successful.</b></p>
+
+<br>
+ 
+<b>GOOD LUCK</b>
+</div>
+</div>
+
+<br>
+<br>
+
+<b> * ARE REQUIRED FIELDS </b>
+
+<br>
+
+<br>
+
+<br>
+
+
+
+
+
+<body>
+
+
+
+<form action="">
+
+
+
+<label for="select" class="select"><b> * TITLE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">SELECT FROM THE DROP DOWN LIST BELOW...</option>
+
+<option value="mr">Mr</option>
+
+<option value="mrs">Mrs</option>
+
+<option value="miss">Miss</option>
+
+<option value="ms">Ms</option>
+
+<option value="dr">Dr</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * FIRST NAME : </b></label>
+
+<input type="text" name="firstname" id="firstname" data-clear-btn="true" placeholder="WHAT IS YOUR FIRST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * LAST NAME : </b></label>
+
+<input type="text" name="lastname" id="lastname" data-clear-btn="true" placeholder="WHAT IS YOUR LAST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+      
+
+<fieldset data-role="controlgroup">
+
+<legend><b> * NUMBER OF TICKETS REQUIRED (MAX 6) : </b></legend>
+
+<label for="one">1</label>
+
+<input type="radio" name="notickets" id="one" value="one">
+
+<label for="two">2</label>
+
+<input type="radio" name="notickets" id="two" value="two">
+
+<label for="three">3</label>
+
+<input type="radio" name="notickets" id="three" value="three">
+
+<label for="four">4</label>
+
+<input type="radio" name="notickets" id="four" value="four">
+
+<label for="five">5</label>
+
+<input type="radio" name="notickets" id="five" value="five">
+
+<label for="six">6</label>
+
+<input type="radio" name="notickets" id="six" value="six">	
+
+</fieldset>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * PREFERRED DATES : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="1may">Thursday 1st May 2014</option>
+
+<option value="8may">Thursday 8th May 2014</option>
+
+<option value="29may">Thursday 29th May 2014</option>
+
+<option value="5june">Thursday 5th june 2014</option>
+
+<option value="9june">Monday 9th June 2014</option>
+
+<option value="19june">Thursday 19th June 2014</option>
+
+<option value="26june">Thursday 26th June 2014</option>
+
+<option value="3july">Thursday 3rd July 2014</option>
+
+</select>
+
+
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(2ND CHOICE...)</option>
+
+<option value="1may">Thursday 1st May 2014</option>
+
+<option value="8may">Thursday 8th May 2014</option>
+
+<option value="29may">Thursday 29th May 2014</option>
+
+<option value="5june">Thursday 5th june 2014</option>
+
+<option value="9june">Monday 9th June 2014</option>
+
+<option value="19june">Thursday 19th June 2014</option>
+
+<option value="26june">Thursday 26th June 2014</option>
+
+<option value="3july">Thursday 3rd July 2014</option>
+
+</select>
+
+
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(3RD CHOICE...)</option>
+
+<option value="1may">Thursday 1st May 2014</option>
+
+<option value="8may">Thursday 8th May 2014</option>
+
+<option value="29may">Thursday 29th May 2014</option>
+
+<option value="5june">Thursday 5th june 2014</option>
+
+<option value="9june">Monday 9th June 2014</option>
+
+<option value="19june">Thursday 19th June 2014</option>
+
+<option value="26june">Thursday 26th June 2014</option>
+
+<option value="3july">Thursday 3rd July 2014</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * PLEASE ENTER YOUR ADDRESS : </b></label>
+
+<input type="text" name="addressline1" id="addressline1" data-clear-btn="true" placeholder="ADDRESS LINE 1 E.G. 25 HARROW ROAD">
+
+<input type="text" name="addressline2" id="addressline2" data-clear-btn="true" placeholder="ADDRESS LINE 2 E.G. LONDON">
+
+<input type="text" name="addressline3" id="addressline3" data-clear-btn="true" placeholder="ADDRESS LINE 3 E.G. PLAISTOW">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * POSTCODE : </b></label>
+
+<input type="text" name="postcode" id="postcode" data-clear-btn="true" placeholder="POST CODE E.G. E12 7GF">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * CONTACT NUMBER : </b></label>
+
+<input type="text" name="contact" id="contact" data-clear-btn="true" placeholder="CONTACT INFORMATION E.G. 07912345678...">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * EMAIL ADDRESS : </b></label>
+
+<input type="email" name="email" id="email" placeholder="Your E-MAIL e.g. steve12@gmail.com">
+
+<label for="text"><b> * DATE OF BIRTH : </b></label>
+
+<input type="date" name="bday" id="bday">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * FAVOURITE SOAP OPERA : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="hollyoaks">Hollyokas</option>
+
+<option value="eastenders">Eastenders</option>
+
+<option value="casualty">Casualty</option>
+
+<option value="holby">Holby City</option>
+
+<option value="coronationstreet">Coronation Street</option>
+
+<option value="emmeradale">Emmerdale</option>
+
+<option value="rivercity">River City</option>
+
+<option value="towie">The Only Way Is Essex</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * NEWSPAPER OF CHOICE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="sun">The Sun</option>
+
+<option value="dailymirror">The Dialy Mirror </option>
+
+<option value="sundaymirror">Sunday Mirror</option>
+
+<option value="dailystar">Daily Star</option>
+
+<option value="dailymail">Daily Mail</option>
+
+<option value="dailyexpress">Daily Express</option>
+
+<option value="dailytelegraph">The Daily Telegraph</option>
+
+<option value="guardain">The Guardian</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * WHO IS YOUR FAVOURITE BRITISH COMEDIAN? : </b></label>
+
+<input type="text" name="favcomedian" id="favcomedian" data-clear-btn="true" placeholder="FAVOURITE COMEDIAN? E.G. MIRINDA HART...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * YOUR FAVOURITE CHAT SHOW : </b></label>
+
+<input type="text" name="favchatshow" id="favchatshow" data-clear-btn="true" placeholder="FAVOURITE CHAT SHOW? E.G. THE JONATHON ROSS SHOW...">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * WHERE DID YOU HEAR ABOUT SRO AUDIENCES : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="google">Google Search</option>
+
+<option value="fb">Facebook/Twitter </option>
+
+<option value="word">Word Of Mouth</option>
+
+<option value="poster">Poster</option>
+
+<option value="bustube">Bus/Tube Advert</option>
+
+<option value="tvshowcommercial">TV Show/Commercial</option>
+
+<option value="magazine">Magazine</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="comments"><b> * YOUR COMMENTS AND OTHER INFORMATION : </b></label>
+
+<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+</div>
+
+
+
+<br>
+
+
+
+<input type="reset" value="RESET FORM">
+
+<input type="submit" value="SUBMIT THE FORM">
+
+
+
+</form>
+
+</div></div>
+
+
+
+<!--BOOKING TICKETS PAGE for loose women-->
+
+
+
+<div data-role="page" id="BOOKTICKETSPAGE">
+
+
+
+
+
+
+
+<div data-theme="a" data-role="header" data-position="fixed">
+
+
+
+<h3>SRO Audience</h3>
+
+
+
+<div data-role="content">
+
+
+
+<div data-role="navbar" data-iconpos="bottom">
+
+<ul>
+
+<li>
+
+
+
+<a href="#HOMEPAGE" data-transition="flow" data-theme="a" data-icon="">
+
+Menu
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#CURRENTSHOWS" data-transition="flow" data-theme="a" data-icon="">
+
+Current Shows
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#SCRAPBOOK" data-transition="flow" data-theme="a" data-icon="">
+
+Scrapbook
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#ABOUTUS" data-transition="flow" data-theme="a" data-icon="">
+
+About Us
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<div data-role="navbar" data-iconpos="left">
+
+<ul>
+
+<li>
+
+<a href="#LOOSEWOMENPAGE" data-transition="flow" data-theme="a" data-icon="back">
+
+CLICK HERE TO GO BACK
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+
+<br />
+
+<br />
+
+<br />
+
+
+
+<ul data-role="listview" data-inset="true" data-divider-theme="a">
+
+
+
+<div align="center">
+
+
+
+<h1> Book Tickets For <img src="Loosewomen.png"  width="200" height="150"> </h1>
+
+<br>
+
+<div align="left">
+<p><b>To apply for tickets, please complete IN FULL and submit the details below. We will process your application as quickly as possible and email you confirmation of your booking if successful.</b></p>
+
+<br>
+ 
+<b>GOOD LUCK</b>
+
+</div>
+</div>
+<br>
+<br>
+
+
+<b> * ARE REQUIRED FIELDS </b>
+
+<br>
+
+<br>
+
+<br>
+
+
+
+
+
+<body>
+
+
+
+<form action="">
+
+
+
+<label for="select" class="select"><b> * TITLE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">SELECT FROM THE DROP DOWN LIST BELOW...</option>
+
+<option value="mr">Mr</option>
+
+<option value="mrs">Mrs</option>
+
+<option value="miss">Miss</option>
+
+<option value="ms">Ms</option>
+
+<option value="dr">Dr</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * FIRST NAME : </b></label>
+
+<input type="text" name="firstname" id="firstname" data-clear-btn="true" placeholder="WHAT IS YOUR FIRST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * LAST NAME : </b></label>
+
+<input type="text" name="lastname" id="lastname" data-clear-btn="true" placeholder="WHAT IS YOUR LAST NAME...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+      
+
+<fieldset data-role="controlgroup">
+
+<legend><b> * NUMBER OF TICKETS REQUIRED (MAX 6) : </b></legend>
+
+<label for="one">1</label>
+
+<input type="radio" name="notickets" id="one" value="one">
+
+<label for="two">2</label>
+
+<input type="radio" name="notickets" id="two" value="two">
+
+<label for="three">3</label>
+
+<input type="radio" name="notickets" id="three" value="three">
+
+<label for="four">4</label>
+
+<input type="radio" name="notickets" id="four" value="four">
+
+<label for="five">5</label>
+
+<input type="radio" name="notickets" id="five" value="five">
+
+<label for="six">6</label>
+
+<input type="radio" name="notickets" id="six" value="six">	
+
+</fieldset>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * PREFERRED DATES : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="24apr">Thursday 24th April 2014</option>
+
+<option value="8may">Thursday 8th May 2014</option>
+
+<option value="15may">Thursday 15th May 2014</option>
+
+<option value="22may">Thursday 22nd May 2014</option>
+
+<option value="26may">Monday 26th May 2014</option>
+
+<option value="5june">Thursday 5th June 2014</option>
+
+<option value="12june">Thursday 12th June 2014</option>
+
+<option value="19june">Thursday 19th June 2014</option>
+
+</select>
+
+
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(2ND CHOICE...)</option>
+
+<option value="24apr">Thursday 24th April 2014</option>
+
+<option value="8may">Thursday 8th May 2014</option>
+
+<option value="15may">Thursday 15th May 2014</option>
+
+<option value="22may">Thursday 22nd May 2014</option>
+
+<option value="26may">Monday 26th May 2014</option>
+
+<option value="5june">Thursday 5th June 2014</option>
+
+<option value="12june">Thursday 12th June 2014</option>
+
+<option value="19june">Thursday 19th June 2014</option>
+
+</select>
+
+
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(3RD CHOICE...)</option>
+
+<option value="24apr">Thursday 24th April 2014</option>
+
+<option value="8may">Thursday 8th May 2014</option>
+
+<option value="15may">Thursday 15th May 2014</option>
+
+<option value="22may">Thursday 22nd May 2014</option>
+
+<option value="26may">Monday 26th May 2014</option>
+
+<option value="5june">Thursday 5th June 2014</option>
+
+<option value="12june">Thursday 12th June 2014</option>
+
+<option value="19june">Thursday 19th June 2014</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * PLEASE ENTER YOUR ADDRESS : </b></label>
+
+<input type="text" name="addressline1" id="addressline1" data-clear-btn="true" placeholder="ADDRESS LINE 1 E.G. 25 HARROW ROAD">
+
+<input type="text" name="addressline2" id="addressline2" data-clear-btn="true" placeholder="ADDRESS LINE 2 E.G. LONDON">
+
+<input type="text" name="addressline3" id="addressline3" data-clear-btn="true" placeholder="ADDRESS LINE 3 E.G. PLAISTOW">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * POSTCODE : </b></label>
+
+<input type="text" name="postcode" id="postcode" data-clear-btn="true" placeholder="POST CODE E.G. E12 7GF">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * CONTACT NUMBER : </b></label>
+
+<input type="text" name="contact" id="contact" data-clear-btn="true" placeholder="CONTACT INFORMATION E.G. 07912345678...">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * EMAIL ADDRESS : </b></label>
+
+<input type="email" name="email" id="email" placeholder="Your E-MAIL e.g. steve12@gmail.com">
+
+<label for="text"><b> * DATE OF BIRTH : </b></label>
+
+<input type="date" name="bday" id="bday">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * FAVOURITE SOAP OPERA : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="hollyoaks">Hollyokas</option>
+
+<option value="eastenders">Eastenders</option>
+
+<option value="casualty">Casualty</option>
+
+<option value="holby">Holby City</option>
+
+<option value="coronationstreet">Coronation Street</option>
+
+<option value="emmeradale">Emmerdale</option>
+
+<option value="rivercity">River City</option>
+
+<option value="towie">The Only Way Is Essex</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * NEWSPAPER OF CHOICE : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="sun">The Sun</option>
+
+<option value="dailymirror">The Dialy Mirror </option>
+
+<option value="sundaymirror">Sunday Mirror</option>
+
+<option value="dailystar">Daily Star</option>
+
+<option value="dailymail">Daily Mail</option>
+
+<option value="dailyexpress">Daily Express</option>
+
+<option value="dailytelegraph">The Daily Telegraph</option>
+
+<option value="guardain">The Guardian</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * WHO IS YOUR FAVOURITE BRITISH COMEDIAN? : </b></label>
+
+<input type="text" name="favcomedian" id="favcomedian" data-clear-btn="true" placeholder="FAVOURITE COMEDIAN? E.G. MIRINDA HART...?">
+
+</div>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="text"><b> * YOUR FAVOURITE CHAT SHOW : </b></label>
+
+<input type="text" name="favchatshow" id="favchatshow" data-clear-btn="true" placeholder="FAVOURITE CHAT SHOW? E.G. THE JONATHON ROSS SHOW...">
+
+</div>
+
+
+
+<br>
+
+
+
+<label for="select" class="select"><b> * WHERE DID YOU HEAR ABOUT SRO AUDIENCES : </b></label>
+
+<select name="select" id="select-choice-1">
+
+<option value="dropdown">(1ST CHOICE...)</option>
+
+<option value="google">Google Search</option>
+
+<option value="fb">Facebook/Twitter </option>
+
+<option value="word">Word Of Mouth</option>
+
+<option value="poster">Poster</option>
+
+<option value="bustube">Bus/Tube Advert</option>
+
+<option value="tvshowcommercial">TV Show/Commercial</option>
+
+<option value="magazine">Magazine</option>
+
+<option value="other">Other</option>
+
+</select>
+
+
+
+<br>
+
+
+
+<div data-role="field contain">
+
+<label for="comments"><b> * YOUR COMMENTS AND OTHER INFORMATION : </b></label>
+
+<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+</div>
+
+
+
+<br>
+
+
+
+<input type="reset" value="RESET FORM">
+
+<input type="submit" value="SUBMIT THE FORM">
+
+
+
+</form>
+
+</body>
+
+</html>
